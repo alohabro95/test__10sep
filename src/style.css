@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Druk-Bold";
+  src: url(/public/fonts/DrukWideCyr-Bold.woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/public/fonts/Commissioner-Bold.woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(/public/fonts/Commissioner-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  padding: 12px 12px 0px 12px;
+  background-color: #efefef;
+  font-family: "Druk-Bold", sans-serif;
+}
